@@ -204,7 +204,7 @@ input[type=text]:focus, input[type=password]:focus {
   width: 100vw;
   height: 50vw;
   float: left;
-  background-image: url('../image/dog18.png');
+  background-image: url('../image/dog18.jpg');
   background-size: cover;
   display: none;
   /*background-color: yellow;*/
