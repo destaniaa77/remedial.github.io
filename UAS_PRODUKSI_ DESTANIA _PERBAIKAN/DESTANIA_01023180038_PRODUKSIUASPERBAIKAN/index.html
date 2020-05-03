@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/typo.css" />
+  </head>
+  <body>
+    
+    <section class="background">
+      <nav>
+      <main>
+        
+        <a href="index.html"><div class="homenav"></div></a>
+        <a href="dogbreed.html" class="menu"><div class="menunav"><h1>Dog Breed</h1></div></a>
+        <a href="dogtraining.html" class="menu"><div class="menunav"><h1>Dog Training</h1></div></a>
+        <a href="puppycare.html" class="menu"><div class="menunav"><h1>Puppy Care</h1></div></a>
+        
+      </main>
+      </nav>
+      
+      <div class="slideshow_home">
+        
+          <div class=" mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="image/dog31.jpg" style="width:100%"></img>
+           
+          </div>
+        
+          <div class=" mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="image/dog32.jpg" style="width:100%"></img>
+           
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="image/dog36.jpg" style="width:100%"></img>
+           
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        
+      </div>
+        
+ 
+     
+    <section class="background2">
+
+		<aside class="sidebar">
+			<div class="widget">
+				<h2>WELCOME</h2>
+				<p>Welcome to PuppyHood! PuppyHood is for dog owners and lovers. Find info on breeds, names, and puppy care
+				</p>
+			</div>
+			<div class="widget">
+				<h2>How to Educate Puppy Tutorial</h2>
+				<p><a target="_blank" href="https://youtu.be/3AG-QDIq_B8">CLICK ME!</a></p>
+			</div>
+		</aside>
+
+  </section>
+  </section>
+  
+  <div class="email_container">
+    <div class="email_text">
+      <label for="email">
+         <h2 style="color: white; font-size: 20pt;padding-top: 2.5vw;">Get Your Free Puppy Guide ! </h2>
+         <h2 style="color: white; font-size: 20pt;padding-top: 2vw;padding-right: 2VW;">There's a lot you need to know to make things go smoothly with your new friend </h2>
+       
+    
+      </label>
+    </div>
+    <div class="email_isi">
+      <input style="width: 25vw; height: 5vw; margin-top: 5.5vw;" type="text" placeholder="Enter Email" name="email" required>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+  
+  <script>
+    var slideIndex = 1;
+     showSlides(slideIndex);
+     
+     // Next/previous controls
+     function plusSlides(n) {
+       showSlides(slideIndex += n);
+     }
+     
+     // Thumbnail image controls
+     function currentSlide(n) {
+       showSlides(slideIndex = n);
+     }
+     
+     function showSlides(n) {
+       var i;
+       var slides = document.getElementsByClassName("mySlides");
+       var dots = document.getElementsByClassName("dot");
+       if (n > slides.length) {slideIndex = 1}
+       if (n < 1) {slideIndex = slides.length}
+       for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+       }
+       for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" active", "");
+       }
+       slides[slideIndex-1].style.display = "block";
+       dots[slideIndex-1].className += " active";
+     }
+  </script>
+  </body>
+</html>
+  
+  

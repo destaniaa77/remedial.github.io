@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/typo.css" />
+  </head>
+  <body>
+     
+  <section class="backgrounddua">
+      <nav>
+      <main>
+        
+        <a href="index.html"><div class="homenav"></div></a>
+        <a href="dogbreed.html" class="menu"><div class="menunav"><h1>Dog Breed</h1></div></a>
+        <a href="dogtraining.html" class="menu"><div class="menunav"><h1>Dog Training</h1></div></a>
+        <a href="puppycare.html" class="menu"><div class="menunav"><h1>Puppy Care</h1></div></a>
+        
+      </main>
+      </nav>
+    
+    
+    <section class="backgrounddua">
+      <main>
+        <div class="artikelx">
+          <h3> Guide to Dog Breeds</h3>
+          <h3 style="color: black; font-size: 20pt;">There are over 300 Dog Breeds recognized worldwide, with most breeds falling into one of 7 breed groups. Learn about the characteristics and behaviors of your dog's breed and group.</h3>
+        </div>
+          
+        
+        
+          
+      
+      <div class="backgrounddua">
+        <div class="trending">
+        </div>
+        <div class="filmone">
+           
+          <div class="artikelposter" onclick="opencontent1('0')"><h3 style="color:white ; font-size: 10pt;">More Detail</h3></div>
+          <div class="artikelposter1" onclick="opencontent2('0')"><h3 style="color:white ; font-size: 10pt;">More Detail</h3></div>
+          <div class="artikelposter2" onclick="opencontent3('0')"><h3 style="color:white ; font-size: 10pt;">More Detail</h3></div>
+        
+        </div>
+      </div>
+      </main>
+    </section>
+    
+    
+     
+    
+    
+ <div id="opencon2" class="secondcard_dogbreed">
+        
+        <section id="anjinginfo1" class="anjinginfocorgi">
+          
+            <div class="titleme">
+              <h4>Friendliest Dog Breed That Love People</h4>
+            </div>
+            <div class="dogimage">
+              <img src="image/dog8.jpg" width="100%" >
+            </div>
+            <div class="descriptionme">
+              
+              
+                <h3><b>Pembroke Welsh Corgi</b></h3>
+                <h4>Corgis are known for being highly sociable dogs that love spending time with their families. They were bred to be at attention as herding, guard, and companion dogs, which perhaps explains why they’re always so focused on their humans. They tend to be very affectionate and need lots of playtime.</h4>
+                
+              
+            </div>
+          
+        </section>
+        
+        <section id="anjinginfo2" class="anjinginfopoodle">
+          
+            <div class="titleme">
+              <h4 color="white">The Fluffiest Dogbreed Ever</h4>
+            </div>
+            <div class="dogimage">
+              <img src="image/dog9.jpg" width="100%" >
+            </div>
+            <div class="descriptionme">
+              
+              
+                <h3><b>Poodle</b></h3>
+                <h4>Before Poodles earned an unfounded reputation as being "prissy," they were often used as hunting and duck dogs, due to their strong swimming skills and "soft" mouths. Because they were hopping into freezing cold water to retrieve ducks and birds, their owners would trim their hair in strategic patterns to protect vital body parts from the cold, while reducing the amount of cold, wet fur the Poodle had to carry around.</h4>
+                
+              
+            </div>
+          
+        </section>
+        
+        <section id="anjinginfo3" class="anjinginfopitbull">
+          
+            <div class="titleme">
+              <h4>The Best Dog Breed For Emotional Support</h4>
+            </div>
+            <div class="dogimage">
+              <img src="image/dog11.jpg" width="100%" >
+            </div>
+            <div class="descriptionme">
+              
+              
+                <h3><b>American Staffordshire Terrier</b></h3>
+                <h4>Pit bull-type dogs have been misaligned for years—an unfortunate result of bad owners and bad PR. But these friendly, devoted canines are incredibly well-suited to serve as emotional support animals. With the proper training and socialization, these dogs typically can get along with most people and in various situations</h4>
+                
+              
+            </div>
+          
+        </section>
+
+
+ </div>
+
+
+
+
+    <script>
+    
+       function opencontent1() {
+        document.getElementById('anjinginfo1').style.display = "block";
+        document.getElementById('opencon2').style.display = "block";
+        document.getElementById('anjinginfo2').style.display = "none";
+        document.getElementById('anjinginfo3').style.display = "none";
+        window.scrollTo(0, 3000);
+      }
+      
+      function opencontent2() {
+        document.getElementById('anjinginfo2').style.display = "block";
+        document.getElementById('opencon2').style.display = "block";
+        document.getElementById('anjinginfo1').style.display = "none";
+        document.getElementById('anjinginfo3').style.display = "none";
+        window.scrollTo(0, 3000);
+      }
+      
+      function opencontent3() {
+        document.getElementById('anjinginfo3').style.display = "block";
+        document.getElementById('opencon2').style.display = "block";
+        document.getElementById('anjinginfo1').style.display = "none";
+        document.getElementById('anjinginfo2').style.display = "none";
+        window.scrollTo(0, 3000);
+      }
+      
+   </script>
+  </body>
+</html>

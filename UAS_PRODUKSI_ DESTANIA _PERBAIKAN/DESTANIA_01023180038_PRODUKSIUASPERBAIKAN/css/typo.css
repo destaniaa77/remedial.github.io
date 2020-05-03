@@ -1,0 +1,134 @@
+.menunav h1 {
+  font-size: 2vw;
+  text-align: center;
+  color: rgba(150,205,232);
+  cursor: pointer;
+}
+
+.menunav:hover h1 {
+  font-size: 2vw;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #33C9B0;
+}
+
+.email_text h1 {
+  font-size: 2vw;
+  /*text-align: center;*/
+  cursor: pointer;
+  /*text-decoration: underline;*/
+  color: white;
+  margin-top: 2vw;
+}
+
+.email_text h4 {
+  font-size: 2vw;
+  font-family: 'helvetica', Sans-Serif;
+  /*text-align: center;*/
+  cursor: pointer;
+  /*text-decoration: underline;*/
+  color: white;
+  margin-top: 1.5vw;
+  font-weight: 400;
+}
+
+
+nav main {
+   text-align:left
+}
+
+nav main a {
+  color: white;
+  font-family: 'Champagne & Limousines', sans-serif ;
+  font-size:20px;
+
+}
+
+h2 {
+  font-size: 24.5px;
+  font-family: 'Champagne & Limousines', sans-serif ;
+  text-align:center;
+  color: white ;
+  
+}
+
+p {
+  font-family: 'futura', Serif;
+  font-weight: normal;
+  font-size: 20px;
+  padding-left:2vw;
+  padding-right:2vw;
+  padding-bottom:2vw;
+  padding-top:2vw;
+  text-align: left;
+  color:rgba(244,171,122);
+}
+
+h3 {
+  font-family: 'Champagne & Limousines', Sans-Serif;
+  font-weight: normal;
+  font-size: 50px;
+  padding-left:2vw;
+  padding-top:2vw;
+  text-align: center;
+  color:black;
+  padding-bottom:2vw;
+  
+}
+
+h4 {
+  font-family: 'PuppyBellies', Sans-Serif;
+  font-weight: normal;
+  font-size: 24px;
+  padding-left:2vw;
+  text-align: center;
+  color:black;
+}
+
+
+
+h5 {
+  font-family: 'futura', sans-Serif;
+  font-size: 17px;
+  padding-left:2vw;
+  text-align: center;
+  color:white;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+
+
+h6 {
+  font-family: 'Champagne & Limousines', sans-Serif;
+  font-size: 20px;
+  padding-left:2vw;
+  text-align: center;
+  color:black;
+  font-weight: normal;
+}
+
+.descriptionme h3 {
+  font-family: 'Champagne & Limousines', Sans-Serif;
+  font-weight: normal;
+  font-size: 50px;
+  padding-left:0vw;
+  padding-top:2vw;
+  text-align: center;
+  color:black;
+  padding-bottom:2vw;
+  padding-right:2vw;
+
+  
+}
+
+.descriptionme h4 {
+  font-family: 'Champagne & Limousines', Sans-Serif;
+  font-weight: normal;
+  font-size: 1.5vw;
+  padding-left:2vw;
+  padding-right:2vw;
+  text-align: center;
+  color:black;
+}
